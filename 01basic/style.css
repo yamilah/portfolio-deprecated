@@ -1,20 +1,20 @@
 @font-face {
    font-family: 'Tall Films';
-    src: url(/type/tall-films-exp.ttf) format('truetype');
+    src: url(type/tall-films-exp.ttf) format('truetype');
    font-weight: normal;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'Gen';
-    src: url(/type/gen-light.ttf) format('truetype');
+    src: url(type/gen-light.ttf) format('truetype');
    font-weight: normal;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'Alegreya';
-    src: url(/type/alegreya-italic.ttf) format('truetype');
+    src: url(type/alegreya-italic.ttf) format('truetype');
    font-weight: normal;
    font-style: normal;
 }
