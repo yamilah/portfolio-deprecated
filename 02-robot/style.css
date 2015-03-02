@@ -334,7 +334,7 @@ body {
     height: 118.8px;
 }
 
-.rtorso:hover .right.thigh {
+.torso:hover .right.thigh {
     -webkit-animation: right-thigh-rotate 5s ease infinite alternate;
     -webkit-animation-delay: 5s;
     transform-origin: 50% 10%;
