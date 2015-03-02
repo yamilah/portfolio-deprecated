@@ -232,15 +232,15 @@ body {
     height: 28px;
 }
 
-.left.eye:hover {
+.torso:hover .left.eye {
     -webkit-animation: left-eye 2s;
 }
 
-.right.eye:hover {
+.torso:hover .right.eye {
     -webkit-animation: right-eye 2s;
 }
 
-.mouth:hover {
+.torso:hover .mouth {
     -webkit-animation: mouth 2s;
 }
 
@@ -254,7 +254,7 @@ body {
     height: 238px;
 }
 
-.left.bicep:hover {
+.torso:hover .left.bicep {
    -webkit-animation: arm-twitch 5s ease, right-dance-fast 5s ease 5s infinite alternate;
    transform-origin: 100% 10%;
 }
@@ -269,7 +269,7 @@ body {
     left: 10px;
 }
 
-.left.forearm:hover {
+.torso:hover .left.forearm {
     transform-origin: 50% 10%;
     -webkit-animation: left-forearm-dance 5s ease infinite alternate;
     -webkit-animation-delay: 5s;
@@ -285,7 +285,7 @@ body {
     height: 244.4px;
 }
 
-.right.bicep:hover {
+.torso:hover .right.bicep {
    -webkit-animation: arm-twitch 5s ease, right-dance-fast 5s ease 5s infinite alternate;
    transform-origin: 0% 10%;
 }
@@ -301,7 +301,7 @@ body {
     z-index: 8;
 }
 
-.right.forearm:hover {
+.torso:hover .right.forearm {
     transform-origin: 50% 10%;
     -webkit-animation: right-forearm-dance 5s ease infinite alternate;
     -webkit-animation-delay: 5s;
@@ -350,7 +350,7 @@ body {
     height: 182.4px;
 }
 
-.left.calf:hover {
+.torso:hover .left.calf {
     -webkit-animation: left-calf-rotate 5s ease infinite alternate;
     -webkit-animation-delay: 5s;
     transform-origin: 80% 0%;
@@ -366,7 +366,7 @@ body {
     height: 182.4px;
 }
 
-.right.calf:hover {
+.torso:hover .right.calf {
     -webkit-animation: right-calf-rotate 5s ease infinite alternate;
     -webkit-animation-delay: 5s;
     transform-origin: 20% 0%;
