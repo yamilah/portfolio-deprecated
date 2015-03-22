@@ -34,5 +34,9 @@ body, html { padding:0px; margin:0px; }
 }
 
 #red {
-    background-color: darkred;
+    background-color: red;
+}
+
+#green {
+    background-color: forestgreen;
 }
