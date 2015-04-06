@@ -1,5 +1,41 @@
-#content-wrapper {
+#bg-img {
+    background: url(assets/poemas.jpg) no-repeat center center fixed, url(assets/star2.jpg) no-repeat center center fixed;
+/*
+    background: url(assets/poemas.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+*/
+}
+
+.poem {
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 420px;
+    color: white;
+}
+
+.poem:not(:first-child) {
+    margin-top: 150px;
+}
+
+.poem:first-child {
+    padding-top: 50px;
+}
+
+.poem:last-child {
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.45em;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8em;
+    padding-bottom: 15px;
 }
