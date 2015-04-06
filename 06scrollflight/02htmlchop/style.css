@@ -1,12 +1,9 @@
 #bg-img {
-    background: url(assets/poemas.jpg) no-repeat center center fixed, url(assets/star2.jpg) no-repeat center center fixed;
-/*
     background: url(assets/poemas.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-*/
 }
 
 .poem {
