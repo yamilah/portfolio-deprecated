@@ -6,11 +6,37 @@
     background-size: cover;
 }
 
+nav {
+    position: fixed;
+}
+
+nav ul {
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+nav ul li {
+    -moz-border-radius: 50px/50px;
+    -webkit-border-radius: 50px 50px;
+    border-radius: 50px/50px;
+    border:solid 3px white;
+    width:15px;
+    height:15px;
+}
+
+nav ul li:not(:last-child) {
+    margin-bottom: 80%;
+    margin-top: 80%;
+}
+
 .poem {
+    clear: both;
+    overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     width: 420px;
     color: white;
+    opacity: 0;
 }
 
 .poem:not(:first-child) {
@@ -35,4 +61,13 @@ p {
     font-family: 'Lato', sans-serif;
     line-height: 1.8em;
     padding-bottom: 15px;
+}
+
+.poem:hover {
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+.pullQuote {
+    font-size: 1.5em;
 }
