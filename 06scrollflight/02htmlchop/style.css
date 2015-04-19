@@ -1,27 +1,38 @@
-#bg-img {
-    background: url(assets/poemas.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 nav {
     position: fixed;
+    z-index: 3;
 }
 
 nav ul {
-    margin-top: 50px;
-    padding-left: 30px;
+    padding-left: 60px;
+    top: 50%;
+    -webkit-transform: translateY(110%);
+    -ms-transform: translateY(110%);
+    transform: translateY(110%);
 }
 
 nav ul li {
-    -moz-border-radius: 50px/50px;
-    -webkit-border-radius: 50px 50px;
     border-radius: 50px/50px;
     border:solid 3px white;
-    width:15px;
-    height:15px;
+    width: 15px;
+    height: 15px;
+    opacity: 0.5;
+}
+
+nav ul li:hover {
+    border-radius: 50%;
+    border:solid 3px white;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    opacity: 1;
 }
 
 nav ul li:not(:last-child) {
@@ -29,26 +40,94 @@ nav ul li:not(:last-child) {
     margin-top: 80%;
 }
 
-.poem {
+#frostedGlass {
+    width: 500px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    z-index: 2;
+    background-color: white;
+    opacity: 0.3;
+    -webkit-filter: blur(10px);
+    filter: blur(10px)
+}
+
+.poemWrapper {
+    opacity: 0;
+    -webkit-transition: opacity;
+    transition: opacity 1s ease-out;
+    z-index: 1;
+}
+
+.onPage {
+    opacity: 1;
+    -webkit-transition: opacity;
+    transition: opacity 1s ease-in;
+    z-index: 1;
+}
+
+/*
+.offPage {
+    opacity: 0;
+    -webkit-transition: opacity;
+    transition: opacity 1s ease-out;
+    z-index: 1;
+}
+*/
+
+#poemBg1 {
+    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#poemBg2 {
+    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#poemBg3 {
+    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#poemBg4 {
+    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#poemBg5 {
+    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#poemBg6 {
+    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#poemBg7 {
+    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#poemBg8 {
+    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+div div {
     clear: both;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     width: 420px;
+    color: black;
+    padding: 100px 0 100px 0px;
     color: white;
-    opacity: 0;
-}
-
-.poem:not(:first-child) {
-    margin-top: 150px;
-}
-
-.poem:first-child {
-    padding-top: 50px;
-}
-
-.poem:last-child {
-    padding-bottom: 50px;
 }
 
 h1 {
@@ -61,11 +140,6 @@ p {
     font-family: 'Lato', sans-serif;
     line-height: 1.8em;
     padding-bottom: 15px;
-}
-
-.poem:hover {
-    opacity: 1;
-    transition: opacity 2s ease;
 }
 
 .pullQuote {
