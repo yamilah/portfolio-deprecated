@@ -88,22 +88,22 @@ nav ul li:not(:last-child) {
 }
 
 #poemBg1 {
-    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background: url(gifs/vela.gif) no-repeat center center fixed;
     background-size: cover;
 }
 
 #poemBg2 {
-    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background: url(gifs/pjro.gif) no-repeat center center fixed;
     background-size: cover;
 }
 
 #poemBg3 {
-    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background: url(gifs/agua.gif) no-repeat center center fixed;
     background-size: cover;
 }
 
 #poemBg4 {
-    background: url(assets/bokeh-wallpaper.jpg) no-repeat center center fixed;
+    background: url(assets/grass2.gif) no-repeat center center fixed;
     background-size: cover;
 }
 
