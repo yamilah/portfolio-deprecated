@@ -1,0 +1,373 @@
+@-webkit-keyframes limbs {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(80deg);}
+}
+
+@-webkit-keyframes left-thigh-rotate {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(30deg);}
+    20% {transform: rotate(0deg);}
+    30% {transform: rotate(38deg);}
+    40% {transform: rotate(0deg);}
+    50% {transform: rotate(45deg);}
+    60% {transform: rotate(0deg);}
+    70% {transform: rotate(36deg);}
+    80% {transform: rotate(0deg);}
+    90% {transform: rotate(33deg);}
+    100% {transform: rotate(0deg);}
+}
+
+@-webkit-keyframes left-calf-rotate {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(-25deg);}
+    20% {transform: rotate(0deg);}
+    30% {transform: rotate(-28deg);}
+    40% {transform: rotate(0deg);}
+    50% {transform: rotate(-25deg);}
+    60% {transform: rotate(0deg);}
+    70% {transform: rotate(-26deg);}
+    80% {transform: rotate(0deg);}
+    90% {transform: rotate(-23deg);}
+    100% {transform: rotate(0deg);}
+}
+
+@-webkit-keyframes right-thigh-rotate {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(-30deg);}
+    20% {transform: rotate(0deg);}
+    30% {transform: rotate(-38deg);}
+    40% {transform: rotate(0deg);}
+    50% {transform: rotate(-45deg);}
+    60% {transform: rotate(0deg);}
+    70% {transform: rotate(-36deg);}
+    80% {transform: rotate(0deg);}
+    90% {transform: rotate(-33deg);}
+    100% {transform: rotate(0deg);}
+}
+
+@-webkit-keyframes right-calf-rotate {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(25deg);}
+    20% {transform: rotate(0deg);}
+    30% {transform: rotate(28deg);}
+    40% {transform: rotate(0deg);}
+    50% {transform: rotate(25deg);}
+    60% {transform: rotate(0deg);}
+    70% {transform: rotate(26deg);}
+    80% {transform: rotate(0deg);}
+    90% {transform: rotate(23deg);}
+    100% {transform: rotate(0deg);}
+}
+
+@-webkit-keyframes left-eye {
+    5% {top: 78px;}
+    8% {top: 76px;}
+    12% {top: 78px;}
+    19% {top: 78px; left: 54px; transform: rotate(0deg);}
+    20% {transform: rotate(-20deg); top: 81px; left: 56px;}
+    22% {top: 78px; left: 54px;}
+    90% {transform: rotate(-40deg);}
+}
+
+@-webkit-keyframes right-eye {
+    5% {top: 78px;}
+    8% {top: 76px;}
+    12% {top: 78px;}
+    19% {top: 78px; left: 125px; transform: rotate(0deg);}
+    20% {transform: rotate(-20deg); top: 81px; left: 123px;}
+    22% {top: 78px; left: 125px;}
+    90% {transform: rotate(-40deg);}
+}
+
+@-webkit-keyframes mouth {
+    5% {top: 125px;}
+    8% {top: 126px;}
+    12% {top: 125px;}
+    19% {top: 125px; left: 92px; transform: rotate(0deg);}
+    20% {transform: rotate(-20deg); top: 122px; left: 90px;}
+    22% {top: 125px; left: 92px;}
+    90% {transform: rotate(-40deg);}
+}
+
+@-webkit-keyframes arm-twitch {
+    0% {top: 210px;}
+    2% {top: 210px;}
+    3% {top: 208px;}
+    12% {top: 210px;}
+    15% {top: 205px;}
+    16% {top: 210px;}
+    39% {top: 210px;}
+    41% {top: 200px;}
+    42% {top: 210px;}
+}
+
+@-webkit-keyframes right-dance-fast {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(-20deg); top: 205px;}
+    23% {transform: rotate(10deg); top: 210px;}
+    29% {transform: rotate(-22deg); top: 200px;}
+    35% {transform: rotate(10deg); top: 210px;}
+    48% {transform: rotate(-8deg); top: 195px;}
+    55% {transform: rotate(10deg); top: 210px;}
+    69% {transform: rotate(-21deg); top: 200px;}
+    78% {transform: rotate(10deg); top: 210px;}
+    89% {transform: rotate(-28deg); top: 190px;}
+    99% {transform: rotate(10deg); top: 210px;}
+}
+
+@-webkit-keyframes left-dance-fast {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(-20deg); top: 205px;}
+    23% {transform: rotate(10deg); top: 210px;}
+    29% {transform: rotate(-22deg); top: 200px;}
+    35% {transform: rotate(10deg); top: 210px;}
+    48% {transform: rotate(-8deg); top: 195px;}
+    55% {transform: rotate(10deg); top: 210px;}
+    69% {transform: rotate(-21deg); top: 200px;}
+    78% {transform: rotate(10deg); top: 210px;}
+    89% {transform: rotate(-28deg); top: 190px;}
+    99% {transform: rotate(10deg); top: 210px;}
+}
+
+@-webkit-keyframes right-forearm-dance {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(130deg);}
+    23% {transform: rotate(100deg);}
+    29% {transform: rotate(132deg);}
+    35% {transform: rotate(100deg);}
+    48% {transform: rotate(135deg);}
+    55% {transform: rotate(100deg);}
+    69% {transform: rotate(138deg);}
+    78% {transform: rotate(100deg);}
+    89% {transform: rotate(136deg);}
+    95% {transform: rotate(50deg);}
+}
+
+@-webkit-keyframes left-forearm-dance {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(-130deg);}
+    23% {transform: rotate(-100deg);}
+    29% {transform: rotate(-132deg);}
+    35% {transform: rotate(-100deg);}
+    48% {transform: rotate(-135deg);}
+    55% {transform: rotate(-100deg);}
+    69% {transform: rotate(-138deg);}
+    78% {transform: rotate(-100deg);}
+    89% {transform: rotate(-136deg);}
+    95% {transform: rotate(-50deg);}
+}
+
+@-webkit-keyframes torso-dance-slow {
+0% {transform: rotate(0deg);}
+70% {transform: rotate(-3deg);}
+80% {transform: rotate(0deg);}
+90% {transform: rotate(-10deg);}
+100% {transform: rotate(0deg);}
+}
+
+@-webkit-keyframes torso-dance-fast {
+0% {transform: rotate(0deg);}
+10% {transform: rotate(-7deg);}
+20% {transform: rotate(0deg);}
+30% {transform: rotate(-10deg);}
+40% {transform: rotate(0deg);}
+50% {transform: rotate(-8deg);}
+60% {transform: rotate(0deg);}
+70% {transform: rotate(-11deg);}
+80% {transform: rotate(0deg);}
+90% {transform: rotate(-6deg);}
+100% {transform: rotate(0deg);}
+}
+
+body {
+    background-image: url(blackdots2.svg);
+    background-size: 100%;
+}
+
+.container {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.torso {
+    width: 201.2px;
+    height: 484.8px;
+    background-image: url(bot/body.png);
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.torso:hover {
+    -webkit-animation: torso-dance-slow 5s ease 2s, torso-dance-fast 5s ease infinite alternate;
+}
+
+.left.eye {
+    position: absolute;
+    background-image: url(bot/leye.png);
+    background-size: 100% 100%;
+    left: 54px;
+    top: 78px;
+    width: 33.2px;
+    height: 28px;
+}
+
+.right.eye {
+    position: absolute;
+    background-image: url(bot/reye.png);
+    background-size: 100% 100%;
+    left: 125px;
+    top: 77px;
+    width: 28.4px;
+    height: 26px;
+}
+.mouth {
+    position: absolute;
+    background-image: url(bot/mouth.png);
+    background-size: 100% 100%;
+    left: 92px;
+    top: 125px;
+    width: 30.4px;
+    height: 28px;
+}
+
+.torso:hover .left.eye {
+    -webkit-animation: left-eye 2s;
+}
+
+.torso:hover .right.eye {
+    -webkit-animation: right-eye 2s;
+}
+
+.torso:hover .mouth {
+    -webkit-animation: mouth 2s;
+}
+
+.left.bicep {
+    position: absolute;
+    background-image: url(bot/lbicep.png);
+    background-size: 100% 100%;
+    left: -40px;
+    top: 210px;
+    width: 49.6px;
+    height: 238px;
+}
+
+.torso:hover .left.bicep {
+   -webkit-animation: arm-twitch 5s ease, right-dance-fast 5s ease 5s infinite alternate;
+   transform-origin: 100% 10%;
+}
+
+.left.forearm {
+    position: absolute;
+    background-image: url(bot/lfore.png);
+    background-size: 100% 100%;
+    width: 34.4px;
+    height: 186.4px;
+    bottom: -175px;
+    left: 10px;
+}
+
+.torso:hover .left.forearm {
+    transform-origin: 50% 10%;
+    -webkit-animation: left-forearm-dance 5s ease infinite alternate;
+    -webkit-animation-delay: 5s;
+}
+
+.right.bicep {
+    position: absolute;
+    background-image: url(bot/rbicep.png);
+    background-size: 100% 100%;
+    right: -38px;
+    top: 210px;
+    width: 45.6px;
+    height: 244.4px;
+}
+
+.torso:hover .right.bicep {
+   -webkit-animation: arm-twitch 5s ease, right-dance-fast 5s ease 5s infinite alternate;
+   transform-origin: 0% 10%;
+}
+
+.right.forearm {
+    position: absolute;
+    background-image: url(bot/rfore.png);
+    background-size: 100% 100%;
+    width: 36.8px;
+    height: 178.4px;
+    bottom: -172px;
+    right: 1px;
+    z-index: 8;
+}
+
+.torso:hover .right.forearm {
+    transform-origin: 50% 10%;
+    -webkit-animation: right-forearm-dance 5s ease infinite alternate;
+    -webkit-animation-delay: 5s;
+    z-index: 8;
+}
+
+.left.thigh {
+    position: absolute;
+    background-image: url(bot/lthigh.png);
+    background-size: 100% 100%;
+    left: 50px;
+    bottom: -112px;
+    width: 31.2px;
+    height: 113.2px;
+}
+
+.torso:hover .left.thigh {
+    -webkit-animation: left-thigh-rotate 5s ease infinite alternate;
+    -webkit-animation-delay: 5s;
+    transform-origin: 50% 10%;
+}
+
+.right.thigh {
+    position: absolute;
+    background-image: url(bot/rthigh.png);
+    background-size: 100% 100%;
+    right: 25px;
+    bottom: -110px;
+    width: 32px;
+    height: 118.8px;
+}
+
+.torso:hover .right.thigh {
+    -webkit-animation: right-thigh-rotate 5s ease infinite alternate;
+    -webkit-animation-delay: 5s;
+    transform-origin: 50% 10%;
+}
+
+.left.calf {
+    position: absolute;
+    background-image: url(bot/lcalf.png);
+    background-size: 100% 100%;
+    left: -60px;
+    bottom: -178px;
+    width: 92px;
+    height: 182.4px;
+}
+
+.torso:hover .left.calf {
+    -webkit-animation: left-calf-rotate 5s ease infinite alternate;
+    -webkit-animation-delay: 5s;
+    transform-origin: 80% 0%;
+}
+
+.right.calf {
+    position: absolute;
+    background-image: url(bot/rcalf.png);
+    background-size: 100% 100%;
+    bottom: -178px;
+    right: -65px;
+    width: 91.6px;
+    height: 182.4px;
+}
+
+.torso:hover .right.calf {
+    -webkit-animation: right-calf-rotate 5s ease infinite alternate;
+    -webkit-animation-delay: 5s;
+    transform-origin: 20% 0%;
+}

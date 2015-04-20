@@ -1,0 +1,136 @@
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    position: fixed;
+    top: 20em;
+    margin-left: 2.5em;
+}
+
+nav ul {
+    position: relative;
+}
+
+nav li {
+    border-radius: 50%;
+    border:solid 0.2em white;
+    width: 1em;
+    height: 1em;
+    opacity: 0.5;
+}
+
+nav ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+nav li:hover {
+    border-radius: 50%;
+    border:solid 0.2em white;
+    width: 1em;
+    height: 1em;
+    background-color: white;
+    -webkit-filter: blur(0.2em);
+    filter: blur(0.2em);
+}
+
+nav ul li:not(:last-child) {
+    margin-bottom: 1.5em;
+}
+
+.activePoem {
+    border-radius: 50%;
+    border:solid 0.2em white;
+    width: 1em;
+    height: 1em;
+    background-color: white;
+    -webkit-filter: blur(0.3em);
+    filter: blur(0.3em);
+    opacity: 1;
+}
+
+.frostedGlass {
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background: -webkit-linear-gradient(
+        0deg, rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.2) 1%,
+        rgba(255, 255, 255, 0.2) 99%,
+        rgba(255, 255, 255, 0)
+    );
+
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.2) 1%,
+        rgba(255, 255, 255, 0.2) 99%,
+        rgba(255, 255, 255, 0)
+    );
+}
+
+.poemWrapper {
+    opacity: 0;
+    -webkit-transition: opacity;
+    transition: opacity 1s ease-out;
+    z-index: 1;
+}
+
+.onPage {
+    opacity: 1;
+    -webkit-transition: opacity;
+    transition: opacity 1s ease-in;
+    z-index: 1;
+}
+
+.bgvid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    opacity: 0.5;
+}
+
+div div div {
+    clear: both;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35em;
+    color: black;
+    padding: 5em 0 5em 0;
+    color: white;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 5em;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    line-height: 1.8em;
+    padding-bottom: 0.8em;
+    color: white;
+}
+
+.pullQuote {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+}
