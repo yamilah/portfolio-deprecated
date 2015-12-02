@@ -1,0 +1,372 @@
+.selected {
+    color: white;
+    background-color: black;
+}
+
+@-webkit-keyframes title-fade {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes title-fade {
+    100% {
+        opacity: 1;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#headerWrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    padding-top: 5.8em;
+    padding-bottom: 2em;
+}
+
+section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2.4em;
+    padding-bottom: .1em;
+    letter-spacing: .05em;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    padding-bottom: .1em;
+}
+
+p {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+}
+
+aside {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+#centerWrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#contentWrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 75em;
+
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+
+    margin-bottom: 2em;
+}
+
+.imageWrapper {
+    background-color: black;
+
+    width: 18.75em;
+    height: 18.75em;
+}
+
+.previewImage {
+    width: 18.75em;
+    height: 18.75em;
+
+    opacity: 1;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.title {
+    text-align: center;
+    margin-top: -9.375em;
+    color: white;
+    opacity: 0;
+}
+
+.imageWrapper:hover .previewImage {
+    opacity: 0.2;
+}
+
+.imageWrapper:hover .title {
+    -webkit-animation: title-fade 2s ease;
+    animation: title-fade 2s ease;
+
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+aside img {
+    position: fixed;
+    top: 2em;
+    left: 1.88em;
+}
+
+aside nav {
+    display: none;
+    position: fixed;
+    top: 4.5em;
+    left: 2em;
+    line-height: 2em;
+}
+
+aside ul {
+    background-color: white;
+    box-shadow: 0.1em 0.1em 0.8em rgba(61, 61, 61, 0.211);
+}
+
+aside li {
+
+    padding: 0.4em 1em 0 1em;
+}
+
+aside li:hover {
+    color: white;
+    background-color: black;
+}
+
+.blackOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.lightBox {
+    position: absolute;
+
+    top: 40px;
+    margin-bottom: 40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    background-color: white;
+}
+
+.detailWrapper {
+    display: -webkit-ox;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    padding: 2em 2em 0 2em;
+}
+
+.detailWrapper img {
+    max-width: 70vw;
+    display: block;
+
+    padding-bottom: 2em;
+}
+
+.detailWrapper iframe {
+    padding-bottom: 2em;
+}
+
+.sideInfo {
+    position: absolute;
+
+    right: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 100vh;
+
+    padding: 5em;
+    background-color: white;
+    overflow: auto;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@media (max-width: 75em) {
+    #contentWrapper {
+        max-width: 56.25em;
+    }
+}
+
+@media (max-width: 56.25em) {
+    #contentWrapper {
+        max-width: 37.5em;
+    }
+}
+
+@media (max-width: 37.5em) {
+    #contentWrapper {
+        max-width: 18.75em;
+    }
+
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.9em;
+        padding-bottom: .1em;
+        letter-spacing: .05em;
+    }
+
+    h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.55em;
+        padding-bottom: .1em;
+    }
+    section p {
+        width: 18.5em;
+        line-height: 1.3em;
+    }
+}
+
+#lightbox-img1 {
+    display: none;
+}
+
+#lightbox-img2 {
+    display: none;
+}
+
+#lightbox-img3 {
+    display: none;
+}
+
+#lightbox-img4 {
+    display: none;
+}
+
+#lightbox-img5 {
+    display: none;
+}
+
+#lightbox-img6 {
+    display: none;
+}
+
+#lightbox-img7 {
+    display: none;
+}
+
+#lightbox-img8 {
+    display: none;
+}
+
+#lightbox-img9 {
+    display: none;
+}
+
+#lightbox-img10 {
+    display: none;
+}
+
+#lightbox-img11 {
+    display: none;
+}
+
+#lightbox-img12 {
+    display: none;
+}
+
+#lightbox-img13 {
+    display: none;
+}
+
+#lightbox-img14 {
+    display: none;
+}
+
+#lightbox-img15 {
+    display: none;
+}
+
+#lightbox-img16 {
+    display: none;
+}
+
+#lightbox-img17 {
+    display: none;
+}
+
+#lightbox-img18 {
+    display: none;
+}
