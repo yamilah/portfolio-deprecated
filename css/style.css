@@ -15,7 +15,7 @@ a {
   color: inherit;
 }
 
-#descriptionWrapper, #nameWrapper {
+#descriptionWrapper, #nameWrapper, .detailLabel, h3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -46,7 +46,7 @@ a {
 
 h1 {
   letter-spacing: .2em;
-  font-size: .8vw;
+  font-size: 1em;
   font-weight: 900;
 }
 
@@ -58,32 +58,59 @@ h2 {
   padding-bottom: 1em;
 }
 
-#button {
-  width: 80px;
-  height: 30px;
+.button {
+  width: 5em;
+  height: 1.875em;
   background: black;
-  border-radius: 3px;
-  
+  border-radius: 0.188em;
+  letter-spacing: .1em;
+}
+
+#moreButton {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  
+
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  
+
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-#button p {
+.button p {
   color: white;
   font-weight: 700;
-  font-size: .8em;  
+  font-size: .8em;
+  font-family: 'Lato', sans-serif;
+}
+
+aside div {
+  width: 5em;
+  height: 1.875em;
+  background: black;
+  border-radius: 0.188em;
+  letter-spacing: .1em;
+  
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #centerWrapper {
@@ -114,7 +141,7 @@ h2 {
 }
 
 #contentWrapper {
-  width: 87.5em;
+  width: 65.625em;
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -172,19 +199,105 @@ h2 {
   animation-fill-mode: forwards;
 }
 
-@media (max-width: 75em) {
+#sectionWrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  width: 65.625em;
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+section p {
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-top: 1.5em;
+
+  width: 700px;
+}
+
+#bioWrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+aside {
+  width: 350px;
+  
+  display: -webkit-box; 
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (width: 75em) {
   #contentWrapper {
     max-width: 56.25em;
   }
 }
 
-@media (max-width: 56.25em) {
+@media (width: 56.25em) {
   #contentWrapper {
     max-width: 37.5em;
   }
 }
 
-@media (max-width: 37.5em) {
+@media (width: 37.5em) {
   #contentWrapper {
     max-width: 21.875em;
   }
