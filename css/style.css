@@ -115,7 +115,7 @@ h2 {
   -ms-flex-direction: column;
   flex-direction: column;
 
-  height: 100vh;
+  height: 60vw;
 
   background: url(https://static.pexels.com/photos/6676/landscape-sunset-blue-sunrise.jpeg) no-repeat center center fixed;
   background-size: cover;
@@ -196,7 +196,7 @@ h2 {
   -ms-flex-align: center;
   align-items: center;
 
-  height: 70vh;
+  height: 30vw;
 }
 
 section {
@@ -283,6 +283,7 @@ aside div {
   align-items: center;
 }
 
+/*
 @media (width: 75em) {
   #contentWrapper {
     max-width: 56.25em;
@@ -299,4 +300,4 @@ aside div {
   #contentWrapper {
     max-width: 21.875em;
   }
-}
+}*/
