@@ -52,9 +52,9 @@ h2, p, .title {
 h1 {
   font-weight: 600;
   font-size: 5vw;
-  
+
   letter-spacing: .1vw;
-  
+
   font-style: italic;
 }
 
@@ -66,7 +66,7 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
+
   width: 100vw;
 }
 
@@ -75,82 +75,32 @@ h2 {
   height: 25vh;
 }
 
-#img1 {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/a/a8/Rock_pattern.jpg) no-repeat center center fixed;
-  background-size: cover;
+.image-wrapper {
+  opacity: 1;
 }
 
-#img2 {
-  background: url(https://static.pexels.com/photos/2988/pattern-triangles.jpg) no-repeat center center fixed;
-  background-size: cover;
+.image-wrapper:hover {
+  opacity: 0.5;  
+  transition-duration: 0.7s;
 }
 
-#img3 {
-  background: url(https://static.pexels.com/photos/5294/pattern-abstract-honeycomb-metal.jpg) no-repeat center center fixed;
-  background-size: cover;
+.image-wrapper:hover .title{
+  animation: title-fade 2s ease;
+
+  animation-fill-mode: forwards;
 }
 
-#img4 {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/8/84/Oakleaf_granite_stone_pattern_on_garden_fountain.jpg) no-repeat center center fixed;
-  background-size: cover;
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#img5 {
-  background: url(https://static.pexels.com/photos/1043/red-building-industry-bricks.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-#img6 {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/1/10/HK_Central_Landmark_mall_shop_wall_marble_pattern_texture_Nov-2013_006.JPG) no-repeat center center fixed;
-  background-size: cover;
-}
-
-#img7 {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/8/84/Oakleaf_granite_stone_pattern_on_garden_fountain.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-#img8 {
-  background: url(https://static.pexels.com/photos/1043/red-building-industry-bricks.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-#img9 {
-  background: url(https://static.pexels.com/photos/2988/pattern-triangles.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-#img10 {
-  background: url(https://static.pexels.com/photos/5294/pattern-abstract-honeycomb-metal.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-/*
-.preview-wrapper {  
-opacity: 0.2;
-transition-duration: 0.7s;
-
-background-repeat: no-repeat;
-background-position: center center;
-}
-*/
-
-/*
 .title {
-text-align: center;
-opacity: 0;
+  opacity: 0;
+  
+  font-size: 1.5vw;
 }
-
-.image-wrapper:hover .preview-wrapper {
-opacity: 1;
-}
-
-.image-wrapper:hover .title {
-animation: title-fade 2s ease;
-
-animation-fill-mode: forwards;
-}
-*/
 
 #biography-flex-wrapper {
   height: 70vh;
@@ -165,14 +115,14 @@ animation-fill-mode: forwards;
 }
 
 #biography-wrapper {
-  width: 75em;
+  width: 50vw;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 3vw;
 }
 
 section p {
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
 }
