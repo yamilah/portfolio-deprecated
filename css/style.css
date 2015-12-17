@@ -10,6 +10,18 @@
   }
 }
 
+@-webkit-keyframes image-fade {
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes image-fade {
+  100% {
+    opacity: 0.5;
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -25,7 +37,8 @@ h1, h2, h4, #button-flex-wrapper {
 }
 
 h3, p, .title {
-  font-family: "Alegreya", serif;
+  font-family: 'Martel', serif;
+  font-weight: 200;
 }
 
 #intro-wrapper {
@@ -72,6 +85,8 @@ h3 {
   flex-wrap: wrap;
 
   width: 100vw;
+
+  background: black;
 }
 
 #content-wrapper div {
@@ -80,17 +95,16 @@ h3 {
 }
 
 .image-wrapper {
-  opacity: 1;
+  position: relative;
 }
 
-.image-wrapper:hover {
-  opacity: 0.5;
-  transition-duration: 0.7s;
+.image-wrapper:hover .fade-wrapper {
+  animation: image-fade .5s ease;
+  animation-fill-mode: forwards;
 }
 
-.image-wrapper:hover .title{
-  animation: title-fade 2s ease;
-
+.image-wrapper:hover .title {
+  animation: title-fade .5s ease;
   animation-fill-mode: forwards;
 }
 
@@ -98,6 +112,9 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: absolute;
+  top: 0;
 }
 
 .title {
@@ -124,13 +141,13 @@ h3 {
 
 h4 {
   font-size: 1.7vw;
-  padding-bottom: .8vw;
-
   font-weight: 600;
+  
+  padding-bottom: .8vw;
 }
 
 section p {
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   line-height: 2vw;
 }
 
@@ -138,7 +155,7 @@ section p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+
   padding-top: 1.8vw;
 }
 
@@ -148,7 +165,7 @@ section p {
   background-color: black;
 
   font-size: .8vw;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
