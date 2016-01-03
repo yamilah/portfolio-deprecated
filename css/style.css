@@ -1,24 +1,12 @@
-@-webkit-keyframes title-fade {
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes title-fade {
   100% {
     opacity: 1;
   }
 }
 
-@-webkit-keyframes image-fade {
-  100% {
-    opacity: 0.5;
-  }
-}
-
 @keyframes image-fade {
   100% {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 
@@ -37,8 +25,8 @@ h1, h2, h4, #button-flex-wrapper {
 }
 
 h3, p, .title {
-  font-family: 'Martel', serif;
-  font-weight: 200;
+  font-family: 'Halant', serif;
+  font-weight: 300;
 }
 
 #intro-wrapper {
@@ -115,6 +103,11 @@ h3 {
 
   position: absolute;
   top: 0;
+}
+
+.title-wrapper p {
+  font-style: italic;
+  font-size: 1vw;
 }
 
 .title {
