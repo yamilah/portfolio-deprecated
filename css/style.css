@@ -158,8 +158,15 @@ section p {
   background-color: black;
 
   font-size: .8vw;
+  letter-spacing: .05vw;
+  font-weight: 600;
+  opacity: 0.85;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button:hover {
+  opacity: 1;
 }
