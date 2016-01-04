@@ -1,9 +1,15 @@
 #intro-wrapper {
-  background: url(../assets/backgrounds/1.jpg) no-repeat center center fixed;
-  background: url(../assets/backgrounds/2.png) no-repeat center center fixed;
-  background: url(../assets/backgrounds/3.jpg) no-repeat center center fixed;
+  background: url(../assets/backgrounds/1.jpg) no-repeat center top fixed;
+  background: url(../assets/backgrounds/2.jpg) no-repeat center bottom fixed;
+  background: url(../assets/backgrounds/3.jpg) no-repeat center top fixed;
   background: url(../assets/backgrounds/4.jpg) no-repeat center center fixed;
   background: url(../assets/backgrounds/5.jpg) no-repeat center center fixed;
+  background: url(../assets/backgrounds/6.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#biography-flex-wrapper {
+  background: url(../assets/backgrounds/7.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 

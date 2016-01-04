@@ -6,7 +6,7 @@
 
 @keyframes image-fade {
   100% {
-    opacity: 0.3;
+    opacity: 0.4;
   }
 }
 
@@ -120,9 +120,6 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background: url(../assets/backgrounds/7.jpg) no-repeat center center fixed;
-  background-size: cover;
 }
 
 #biography-wrapper {
