@@ -34,17 +34,17 @@
 }
 
 #img5 {
-  background: url(../assets/tiles/tile3.jpg);
+  background: url(../assets/tiles/tile3.jpg) center bottom;
   background-size: cover;
 }
 
 #img6 {
-  background: url(../assets/tiles/tile.jpg) center;
+  background: url(../assets/tiles/tile16.jpg) center;
   background-size: cover;
 }
 
 #img7 {
-  background: url(../assets/tiles/tile15.jpg);
+  background: url(../assets/tiles/tile.jpg);
   background-size: cover;
 }
 
@@ -54,32 +54,32 @@
 }
 
 #img9 {
-  background: url(../assets/tiles/tile2.jpg);
-  background-size: cover;
-}
-
-#img10 {
-  background: url(../assets/tiles/tile4.jpg);
-  background-size: cover;
-}
-
-#img11 {
-  background: url(../assets/tiles/tile11.jpg) center;
-  background-size: cover;
-}
-
-#img12 {
-  background: url(../assets/tiles/tile6.jpg);
-  background-size: cover;
-}
-
-#img13 {
   background: url(../assets/tiles/tile13.jpg);
   background-size: cover;
 }
 
+#img10 {
+  background: url(../assets/tiles/tile4.jpg) top;
+  background-size: cover;
+}
+
+#img11 {
+  background: url(../assets/tiles/tile6.jpg);
+  background-size: cover;
+}
+
+#img12 {
+  background: url(../assets/tiles/tile11.jpg) center;
+  background-size: cover;
+}
+
+#img13 {
+  background: url(../assets/tiles/tile15.jpg);
+  background-size: cover;
+}
+
 #img14 {
-  background: url(../assets/tiles/tile14.jpg) center;
+  background: url(../assets/tiles/tile2.jpg);
   background-size: cover;
 }
 
@@ -89,6 +89,6 @@
 }
 
 #img16 {
-  background: url(../assets/tiles/tile16.jpg) center;
+  background: url(../assets/tiles/tile14.jpg) center;
   background-size: cover;
 }
