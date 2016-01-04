@@ -1,3 +1,12 @@
+#intro-wrapper {
+  background: url(../assets/backgrounds/1.jpg) no-repeat center center fixed;
+  background: url(../assets/backgrounds/2.png) no-repeat center center fixed;
+  background: url(../assets/backgrounds/3.jpg) no-repeat center center fixed;
+  background: url(../assets/backgrounds/4.jpg) no-repeat center center fixed;
+  background: url(../assets/backgrounds/5.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 #img1 {
   background: url(../assets/tiles/tile9.jpg);
   background-size: cover;
@@ -70,5 +79,10 @@
 
 #img15 {
   background: url(../assets/tiles/tile7.jpg) center;
+  background-size: cover;
+}
+
+#img16 {
+  background: url(../assets/tiles/tile16.jpg) center;
   background-size: cover;
 }
