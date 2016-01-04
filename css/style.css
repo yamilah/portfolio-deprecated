@@ -155,12 +155,13 @@ section p {
 .button {
   width: 7vw;
   height: 2.5vw;
+  border-radius: .2vw;
   background-color: black;
 
   font-size: .8vw;
   letter-spacing: .05vw;
   font-weight: 600;
-  opacity: 0.85;
+  opacity: 0.8;
 
   display: flex;
   justify-content: center;
