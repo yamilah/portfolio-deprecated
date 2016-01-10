@@ -1,11 +1,49 @@
-#intro-wrapper {
-  background: url(../assets/backgrounds/1.jpg) no-repeat center top fixed;
-  background: url(../assets/backgrounds/2.jpg) no-repeat center bottom fixed;
-  background: url(../assets/backgrounds/3.jpg) no-repeat center top fixed;
-  background: url(../assets/backgrounds/4.jpg) no-repeat center center fixed;
-  background: url(../assets/backgrounds/5.jpg) no-repeat center center fixed;
-  background: url(../assets/backgrounds/6.jpg) no-repeat center center fixed;
+#slideshow-container {
+  height: 100vh;
+  width: 100vw;
+  
+  position: absolute;
+  
+  z-index: -5;
+}
+
+.slideshow-image {
+  width: 100%;
+  height: 100%;
+  
+  position: absolute;
+  
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-clip: border-box;
+  background-origin: padding-box;
   background-size: cover;
+}
+
+#bg-1 {
+  background-image: url("../assets/backgrounds/1.jpg");
+}
+
+#bg-2 {
+  background-image: url("../assets/backgrounds/2.jpg");
+}
+
+#bg-3 {
+  background-image: url("../assets/backgrounds/3.jpg");
+}
+
+#bg-4 {
+  background-image: url("../assets/backgrounds/4.jpg");
+}
+
+#bg-5 {
+  background-image: url("../assets/backgrounds/5.jpg");
+}
+
+#bg-6 {
+  background-image: url("../assets/backgrounds/6.jpg");
 }
 
 #biography-flex-wrapper {
