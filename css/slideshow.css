@@ -1,0 +1,13 @@
+.slideshow-image {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.slideshow-initial {
+  opacity: 1;
+}
+
+.fade-effect {
+  opacity: 1;
+  transition: opacity 2s;
+}
