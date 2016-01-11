@@ -5,8 +5,21 @@
 }
 
 @keyframes image-fade {
+  50% {
+    opacity: 0.3;
+  }
+  
   100% {
-    opacity: 0.4;
+    opacity: 0.2;
+  }
+}
+
+@keyframes zoom-in {
+  50% {
+  transform: scale(1.012);
+  }
+  100% {
+    transform: scale(1.015);
   }
 }
 
@@ -87,6 +100,11 @@ h3 {
   position: relative;
 }
 
+.image-wrapper:hover {
+  animation: zoom-in .5s ease;
+  animation-fill-mode: forwards;
+}
+
 .image-wrapper:hover .fade-wrapper {
   animation: image-fade .5s ease;
   animation-fill-mode: forwards;
@@ -104,6 +122,8 @@ h3 {
 
   position: absolute;
   top: 0;
+  
+  pointer-events: none;
 }
 
 .title-wrapper p {
@@ -113,7 +133,7 @@ h3 {
 
 .title {
   opacity: 0;
-
+  
   font-size: 1.5vw;
 }
 
