@@ -1,0 +1,38 @@
+section {
+  display: flex;
+  justify-content: center;
+}
+
+#about-flex-wrapper {
+  width: 60vw;
+  justify-content: center;
+  display: flex;
+}
+
+#about-flex-wrapper div {
+  display: flex;
+  flex-direction: column;
+}
+
+#img-about-header {
+  height: 35vw;
+}
+
+section {
+  display: flex;
+  padding-top: 5vw;
+  flex: 1;
+}
+
+section p {
+  font-family: 'Neuton', serif;
+  font-weight: 200;
+  font-size: 1.8vw;
+  line-height: 2.3vw;
+  width: 50vw;
+}
+
+section ul li {
+  display: inline-block;
+  padding: 5vw 2vw 1.5vw 0;
+}
