@@ -9,7 +9,7 @@ a {
   color: inherit;
 }
 
-nav, h3, footer {
+nav, h3, footer, section ul li {
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 0.07vw;
   font-size: 0.7vw;
@@ -34,7 +34,7 @@ nav a {
   transition-property: color;
 }
 
-nav a:hover {
+nav a:hover, section ul li:hover {
   color: #666;
   transition-duration: 0.2s;
   transition-property: color;
@@ -68,9 +68,6 @@ h2 {
 #content-flex-wrapper {
   display: flex;
   justify-content: center;
-}
-
-#flex-element {
   flex: 1;
 }
 
@@ -80,6 +77,7 @@ h2 {
   flex-wrap: wrap;
 
   width: 60vw;
+  align-self: flex-start;
 }
 
 .white-square {

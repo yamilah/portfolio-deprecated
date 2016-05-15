@@ -1,3 +1,8 @@
+#img-about-header {
+  background: url("http://placekitten.com/2000/2000") center;
+  background-size: cover;
+}
+
 #img1 {
   background: url("http://placekitten.com/2000/2000") center;
   background-size: cover;
