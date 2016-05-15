@@ -1,15 +1,21 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
-nav, h3 {
+nav, h3, footer {
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 0.07vw;
   font-size: 0.7vw;
 }
 
-nav { 
+nav {
   border-bottom: 0.01vw solid #dbdbdb;
 }
 
@@ -37,7 +43,7 @@ nav a:hover {
 #intro-flex-wrapper {
   display: flex;
   justify-content: center;
-  
+
   padding: 3vw 0 3vw 0;
   line-height: 2.1vw;
 }
@@ -64,11 +70,15 @@ h2 {
   justify-content: center;
 }
 
+#flex-element {
+  flex: 1;
+}
+
 #image-flex-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
+
   width: 60vw;
 }
 
@@ -136,4 +146,23 @@ h2 {
 #img5 {
   width: 20vw;
   height: 25vw;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+
+  border-top: 0.01vw solid #dbdbdb;
+
+  padding: 2vw;
+  margin-top: 5vw;
+}
+
+footer p:nth-child(odd) {
+  padding-bottom: 0.5vw;
+}
+
+#footer-flex-wrapper {
+  display: flex;
+  flex-direction: column;
 }
