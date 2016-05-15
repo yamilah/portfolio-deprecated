@@ -1,39 +1,39 @@
 #img-about-header {
-  background: url("http://placekitten.com/2000/2000") center;
+  background: url("https://placekitten.com/2000/2000") center;
   background-size: cover;
 }
 
 #img1 {
-  background: url("http://placekitten.com/2000/2000") center;
+  background: url("https://placekitten.com/2000/2000") center;
   background-size: cover;
 }
 
 #img2 {
-  background: url("http://placekitten.com/1000/1000") center;
+  background: url("https://placekitten.com/1000/1000") center;
   background-size: cover;
 }
 
 #img3 {
-  background: url("http://placekitten.com/1100/1100") center;
+  background: url("https://placekitten.com/1100/1100") center;
   background-size: cover;
 }
 
 #img4 {
-  background: url("http://placekitten.com/800/800") center;
+  background: url("https://placekitten.com/800/800") center;
   background-size: cover;
 }
 
 #img5 {
-  background: url("http://placekitten.com/1800/1800") center;
+  background: url("https://placekitten.com/1800/1800") center;
   background-size: cover;
 }
 
 #logo {
-  background: url("/assets/logo-kufic-initials.svg") center;
+  background: url("../assets/logo-kufic-initials.svg") center;
   background-size: cover;
 }
 
 #menu {
-  background: url("/assets/menu-icon-2.svg") center;
+  background: url("../assets/menu-icon-2.svg") center;
   background-size: cover;
 }
