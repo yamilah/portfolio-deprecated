@@ -1,3 +1,7 @@
+#fade-intro {
+  background-color: white;
+}
+
 body {
   display: flex;
   min-height: 100vh;
@@ -28,6 +32,37 @@ nav {
   position: absolute;
   top: 1.7vw;
   left: 4vw;
+}
+
+#fade-intro {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  
+  width: 100%;
+  height: 100%;
+  
+  z-index: 2;
+  
+  transition-duration: 0.5s;
+  transition-property: opacity;
+}
+
+#fade-intro:hover {
+  opacity: 0;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+}
+
+#intro-flex-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro-logo {
+  width: 5.9vw;
+  height: 5vw;
 }
 
 #menu {
