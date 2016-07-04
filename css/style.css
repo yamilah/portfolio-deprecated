@@ -29,7 +29,7 @@
   }
 }
 
-body {
+#content-fade-wrapper, #content-fade-wrapper-2 {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -42,6 +42,7 @@ body {
 }
 
 #content-fade-wrapper-2 {
+  
   animation: fade-in 2s ease;
   animation-fill-mode: forwards;
 }
