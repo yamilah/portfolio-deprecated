@@ -221,31 +221,41 @@ a .image-wrapper {
   padding-top: 1.5vw;
 }
 
-#img1 {
+.img1 {
   width: 60vw;
   height: 35vw;
 }
 
-#img2 {
+.img2 {
   width: 28.5vw;
   height: 40vw;
   margin-right: 1.5vw;
 }
 
-#img3 {
+.img3 {
   width: 30vw;
   height: 40vw;
 }
 
-#img4 {
+.img4 {
   width: 38.5vw;
   height: 25vw;
   margin-right: 1.5vw;
 }
 
-#img5 {
+.img5 {
   width: 20vw;
   height: 25vw;
+}
+
+.img6 {
+  width: 50vw;
+  height: 62vw;
+}
+
+.img7 {
+  width: 50vw;
+  height: 30vw;
 }
 
 footer {
