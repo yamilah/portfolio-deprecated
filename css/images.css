@@ -24,7 +24,7 @@
 }
 
 #work-intro-5 {
-  background: url(../assets/content/uxpa-board/poster.jpg) center;
+  background: url(../assets/content/letterforms/letterform1.jpg) center;
   background-size: cover;
 }
 
@@ -135,5 +135,28 @@
   background: url(../assets/content/poetry/poetry2.jpg);
   background-size: cover;
   width: 60vw;
+  height: 30vw;
+}
+
+
+#work5-img1 {
+  background: url(../assets/content/letterforms/letterform2.jpg) center;
+  background-size: cover;
+  width: 60vw;
+  height: 30vw;
+}
+
+#work5-img2 {
+  background: url(../assets/content/letterforms/letterform4.jpg) center;
+  background-size: cover;
+  width: 29.25vw;
+  height: 30vw;
+  margin-right: 1.5vw;
+}
+
+#work5-img3 {
+  background: url(../assets/content/letterforms/letterform3.jpg) center;
+  background-size: cover;
+  width: 29.25vw;
   height: 30vw;
 }
