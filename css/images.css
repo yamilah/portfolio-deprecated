@@ -19,7 +19,7 @@
 }
 
 #work-intro-4 {
-  background: url(../assets/content/uxpa-board/poster.jpg) center;
+  background: url(../assets/content/poetry/poetry1.jpg) center;
   background-size: cover;
 }
 
@@ -122,4 +122,18 @@
   background-size: cover;
   width: 60vw;
   height: 75vw;
+}
+
+#work4-img1 {
+  background: url(../assets/content/poetry/poetry3.jpg);
+  background-size: cover;
+  width: 60vw;
+  height: 30vw;
+}
+
+#work4-img2 {
+  background: url(../assets/content/poetry/poetry2.jpg);
+  background-size: cover;
+  width: 60vw;
+  height: 30vw;
 }
