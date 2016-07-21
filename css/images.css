@@ -9,7 +9,7 @@
 }
 
 #work-intro-2 {
-  background: url(../assets/content/uxpa-board/poster.jpg) center;
+  background: url(../assets/content/AVM/04.jpg) top;
   background-size: cover;
 }
 
@@ -80,4 +80,25 @@
   background-size: cover;
   width: 60vw;
   height: 30vw;
+}
+
+#work2-img1 {
+  background: url(../assets/content/AVM/01.jpg);
+  background-size: cover;
+  width: 60vw;
+  height: 42vw;
+}
+
+#work2-img2 {
+  background: url(../assets/content/AVM/03.jpg);
+  background-size: cover;
+  width: 60vw;
+  height: 42vw;
+}
+
+#work2-img3 {
+  background: url(../assets/content/AVM/05.jpg);
+  background-size: cover;
+  width: 60vw;
+  height: 42vw;
 }
