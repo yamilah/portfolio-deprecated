@@ -14,7 +14,7 @@
 }
 
 #work-intro-3 {
-  background: url(../assets/content/uxpa-board/poster.jpg) center;
+  background: url(../assets/content/paulrand/paulrand5.png) top;
   background-size: cover;
 }
 
@@ -101,4 +101,25 @@
   background-size: cover;
   width: 60vw;
   height: 42vw;
+}
+
+#work3-img1 {
+  background: url(../assets/content/paulrand/paulrand2.png) top;
+  background-size: cover;
+  width: 60vw;
+  height: 38vw;
+}
+
+#work3-img2 {
+  background: url(../assets/content/paulrand/paulrand5.png);
+  background-size: cover;
+  width: 60vw;
+  height: 42vw;
+}
+
+#work3-img3 {
+  background: url(../assets/content/paulrand/paulrand.png);
+  background-size: cover;
+  width: 60vw;
+  height: 75vw;
 }
